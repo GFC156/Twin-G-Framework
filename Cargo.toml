@@ -1,0 +1,9 @@
+[package]
+name = "twin-g-rs"
+version = "0.1.0"
+edition = "2021"
+description = "High-performance Twin-G geometry barrier engine"
+
+[dependencies]
+nalgebra = "0.32" # 强大的线性代数库
+rayon = "1.7"    # 并行计算库
